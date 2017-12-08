@@ -13,7 +13,7 @@
 <script>
 function myFunction(){
 	var x;
-	var person=prompt("请输入你的名字","Harry Potter");
+	var person=prompt("请输入你的名字","樊则坤");
 	if (person!=null && person!=""){
 	    x="你好 " + person + "! 今天感觉如何?";
 	    document.getElementById("demo").innerHTML=x;
