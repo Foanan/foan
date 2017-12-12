@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<style type="text/css">
+ #toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+</style>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="jquery.ui.theme.css">
+  <link rel="stylesheet" href="css/base/jquery-ui-1.10.4.custom.min.css">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="jquery-ui-1.10.4.custom.min.js"></script>
+   
+  <script>
+  
+  </script>
+</head>
+<body>
+ <p>111</p>
+<div id="toggle"></div>
+ 
+<script>
+$( document ).click(function() {
+  $( "#toggle" ).toggle( "drop" );
+});
+</script>
+</body>
+</html>
